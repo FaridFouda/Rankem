@@ -127,7 +127,7 @@ public static RealVector Negate( RealMatrix x){
     FileOutputStream fout = new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html",true);
     //Clears the html file of the previous ranking
     new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html").close();
-    String content = "<html><style>body { background-color: powderblue; color: black; font-family: Arial; text-align: center; }</style><body>";
+    String content = "<html><style>body { background-color: white; color: black; font-family: Arial; text-align: center; }</style><body>";
     fout.write(content.getBytes());
     
     DecimalFormat df = new DecimalFormat("0.0000");
@@ -135,7 +135,7 @@ public static RealVector Negate( RealMatrix x){
     //Find the corresponding ranking using the sorted array.
     System.out.println("The ranking is:");
 
-    
+
     String st2;
     String P = "<P>";
     String End = "</body></html>";
