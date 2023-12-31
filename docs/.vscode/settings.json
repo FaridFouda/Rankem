@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "Rankem/src",
+        "Rankem/lib"
+
+    ]
+
+    ,"java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Rankem/**/*.jar"
+    ]
+}
