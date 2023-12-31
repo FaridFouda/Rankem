@@ -123,10 +123,13 @@ public static RealVector Negate( RealMatrix x){
             counter ++ ;    
         }   
     }
-}   //Format the decimal to 4 points precision
-FileOutputStream fout = new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html",true);
-String content = "<html><style>body { background-color: powderblue; color: black; font-family: Arial; }</style><body>";
-fout.write(content.getBytes());
+}   
+    FileOutputStream fout = new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html",true);
+    //Clears the html file of the previous ranking
+    new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html").close();
+    String content = "<html><style>body { background-color: powderblue; color: black; font-family: Arial; }</style><body>";
+    fout.write(content.getBytes());
+    
     DecimalFormat df = new DecimalFormat("0.0000");
     String [] TeamNames = {"GustavoFring", "Haïti Batty Gyals", "Alicia's Amazing Team","I love miners","Fitzroy Owner","BelAzurThalassa","Pipe Layers","Puckbunny4life","Cairo Sand Dunes","Jacob's Quality Team","eroche0202's Quality Team","Galleta inbreds"};
     //Find the corresponding ranking using the sorted array.
