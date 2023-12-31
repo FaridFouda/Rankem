@@ -127,7 +127,7 @@ public static RealVector Negate( RealMatrix x){
     FileOutputStream fout = new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html",true);
     //Clears the html file of the previous ranking
     new FileOutputStream("/Users/faridfouda/Documents/GitHub/Rankem/docs/testfile.html").close();
-    String content = "<html><style>body { background-color: powderblue; color: black; font-family: Arial; }</style><body>";
+    String content = "<html><style>body { background-color: powderblue; color: black; font-family: Arial; text-align: center; }</style><body>";
     fout.write(content.getBytes());
     
     DecimalFormat df = new DecimalFormat("0.0000");
