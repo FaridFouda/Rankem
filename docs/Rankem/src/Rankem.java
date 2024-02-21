@@ -131,7 +131,7 @@ public static RealVector Negate( RealMatrix x){
     fout.write(content.getBytes());
     
     DecimalFormat df = new DecimalFormat("0.0000");
-    String [] TeamNames = {"GustavoFring", "Haïti Batty Gyals", "Alicia's Amazing Team","I love miners","Fitzroy Owner","BelAzurThalassa","Pipe Layers","Puckbunny4life","Cairo Sand Dunes","Jacob's Quality Team","eroche0202's Quality Team","Galleta inbreds"};
+    String [] TeamNames = {"GustavoFring", "Haïti ", "Alicia's Amazing Team","I love ","Fitzroy Owner","BelAzurThalassa","Layers","Puck4life","Cairo Sand Dunes","Jacob's Quality Team","eroche0202's Quality Team","Galleta"};
     //Find the corresponding ranking using the sorted array.
     System.out.println("The ranking is:");
 
